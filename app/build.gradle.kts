@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "vn.edu.dlu.ctk45.appdoctruyen"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "vn.edu.dlu.ctk45.appdoctruyen"
