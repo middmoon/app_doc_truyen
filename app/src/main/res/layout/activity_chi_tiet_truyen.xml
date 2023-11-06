@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChiTietTruyen">
+    <include layout="@layout/action_bar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="135dp"
+                android:layout_height="240dp"
+                android:src="@drawable/doraemon">
+
+            </ImageView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đoc Ngay">
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Theo Dõi">
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên Truyện: "
+                android:textSize="16dp"
+                android:padding="4dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thể Loại: "
+                android:textSize="16dp"
+                android:padding="4dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tác Giả: "
+                android:textSize="16dp"
+                android:padding="4dp"></TextView>
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"></ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
